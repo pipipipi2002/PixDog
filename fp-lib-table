@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "rp2350_specifics") (type "KiCad") (uri "${KIPRJMOD}/rp2350_specifics.pretty") (options "") (descr ""))
+	(lib (name "pixdog_libraries") (type "KiCad") (uri "${KIPRJMOD}/pixdog_libraries.pretty") (options "") (descr ""))
+)
