@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 45.72 73.66)
-		(size 48.26 34.29)
+		(at 54.61 83.82)
+		(size 27.94 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "0e6ef4ea-5276-4c3a-9a57-a5b0ceb6f48e")
 		(property "Sheetname" "Servo"
-			(at 45.72 72.9484 0)
+			(at 54.61 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 45.72 108.5346 0)
+			(at 54.61 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +87,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V_Internal" input
+			(at 54.61 87.63 180)
+			(uuid "91c9994d-a4c3-4ef9-81de-85242a7ed29d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_Servo" input
+			(at 54.61 90.17 180)
+			(uuid "2d7164bf-58a4-4955-bc4f-a8870a0f52e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 82.55 87.63 0)
+			(uuid "d4c99b87-a0f0-42df-aadf-4ac2d0592652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 82.55 90.17 0)
+			(uuid "da5f88e2-9637-4498-89c7-55124127c077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
